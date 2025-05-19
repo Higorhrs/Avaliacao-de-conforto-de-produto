@@ -1,0 +1,18 @@
+
+# Arquivos sensíveis
+.env
+
+# Arquivos gerados automaticamente
+
+*.pyc
+__pycache__/
+
+# Pastas desnecessárias
+
+
+# Outros arquivos temporários
+*.log
+*.tmp
+
+
+

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Formulário de Avaliação</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename='CSS/styles.css') }}">
+</head>
+<body>
+  <div class="content">
+    <img src="{{ url_for('static', filename='images/logo_psd.png') }}" alt="Logo Pés Sem Dor" height="100" width="100">
+    <h1>Formulário</h1>
+    <form action="/submit" method="POST">
+      <div>
+                <label for="text">Nome</label><br>
+                <input type="text" name="nome" placeholder="Digite seu nome" class="inputs">
+                <span class="span-forms">Seu nome deve conter no mínimo 3 caracteris</span><p></p>
+            </div>
+            <div>
+                <label for="text">Idade</label><br>
+                <input type="number" name="idade" placeholder="Digite sua idade" class="inputs">
+            </div>
+            <div class="boxselect">
+                <label for="text">Sexo</label><br>
+                <div>
+                    
+                    <input type="radio" id="M" value="M" name="sexo">
+                    <label for="M">Masculino</label>
+                </div>
+                <div>
+                    
+                    <input type="radio" id="F" value="F" name="sexo">
+                    <label for="F">Feminino</label>
+                </div>
+                <div>
+                    
+                    <input type="radio" id="O" value="O" name="sexo">
+                    <label for="O">Outro</label>
+                </div>
+            </div>
+            <div>
+                <label for="text">E-mail</label><br>
+                <input type="email" name="email" placeholder="Digite seu e-mail" class="inputs">
+                <span class="span-forms">Digite um e-mail válido</span><p></p>
+            </div>
+            <div>
+                <label for="produto">Escolha um produto:</label><br>
+                    <select name="produto" id="produto">
+                    <option value="Palmilha Dor no Calcanhar"> Palmilha Dor no Calcanhar</option>
+                    <option value="Palmilha Metatarsalgia">Palmilha Metatarsalgia</option>
+                    <option value="Palmilha Neuroma de Morton">Palmilha Neuroma de Morton</option>
+                    <option value="Palmilha Hálux rígido">Palmilha Hálux rígido</option>
+            </select><br><br>
+            </div>
+            <div>
+                <label for="Conforto">Escolha um conforto:</label><br>
+                    <select name="conforto" id="conforto">
+                    <option value="Ótimo">Ótimo</option>
+                    <option value="Bom">Bom</option>
+                    <option value="Ruim">Ruim</option>
+            </select><br><br>
+            </div>
+            <div>
+                <label for="text">comentarios</label><br>
+                <textarea name="comentario" id="" cols="25" rows="10" placeholder="Digite seu texto" class="inputs"></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+      
+    </form>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
