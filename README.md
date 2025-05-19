@@ -25,6 +25,7 @@ O objetivo principal é obter avaliações qualitativas e quantitativas dos usu�
 ![image alt](https://github.com/Higorhrs/Avaliacao-de-conforto-de-produto/blob/05624d2aa5faa9c1af19afc8996c3cec04796ab8/image%20(4).png)
 
 # Conexão com Banco de Dados
+Dados Fictícios
 ![image alt](https://github.com/Higorhrs/Avaliacao-de-conforto-de-produto/blob/093628acde518dc2055e73daeded1355658a8d80/image%20(6).png)
 
 
